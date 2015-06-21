@@ -25,7 +25,8 @@ Or install it yourself as:
     players = [ "Arkanthiel#1571", "PlayerOne#1309" ]
     Hotstat.fetch(players)
 
-    > [#<Player code="Arkanthiel#1571" mmr1="123" mmr2="456" >, ...]
+    > [#<Hotstat::Player code="Arkanthiel#1571" mmr1="123" mmr2="456" >, ...]
+
 
 ## Development
 
