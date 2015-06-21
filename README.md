@@ -1,8 +1,11 @@
 # Hotstat
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/hotstat`. To experiment with that code, run `bin/console` for an interactive prompt.
+## Usage
 
-TODO: Delete this and the text above, and describe your gem
+    players = [ "Arkanthiel#1571", "PlayerOne#1309" ]
+    Hotstat.fetch(players)
+
+    > [#<Hotstat::Player code="Arkanthiel#1571" mmr1="123" mmr2="456" >, ...]
 
 ## Installation
 
@@ -19,14 +22,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install hotstat
-
-## Usage
-
-    players = [ "Arkanthiel#1571", "PlayerOne#1309" ]
-    Hotstat.fetch(players)
-
-    > [#<Hotstat::Player code="Arkanthiel#1571" mmr1="123" mmr2="456" >, ...]
-
 
 ## Development
 
