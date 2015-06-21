@@ -3,8 +3,6 @@ require 'spec_helper'
 describe Hotstat do
 
   describe 'fetch_data' do
-    before do
-    end
 
     it "returns player data" do
       player_list = ['Arkanthiel#1571', 'PlayerOne#1309']
