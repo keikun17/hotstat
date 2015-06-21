@@ -22,7 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    players = [ "Arkanthiel#1571", "PlayerOne#1309" ]
+    Hotstat.fetch(players)
+
+    > [#<Player code="Arkanthiel#1571" mmr1="123" mmr2="456" >, ...]
 
 ## Development
 
