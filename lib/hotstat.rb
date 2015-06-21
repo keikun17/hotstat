@@ -43,3 +43,5 @@ module Hotstat
 
 
 end
+
+require 'hotstat/player'
