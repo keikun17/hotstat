@@ -1,7 +1,6 @@
 require "hotstat/version"
 require 'nokogiri'
 require 'open-uri'
-require 'pry'
 
 module Hotstat
 
